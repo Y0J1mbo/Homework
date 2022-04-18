@@ -13,11 +13,13 @@ import java.util.Scanner;
 
 public class Variable17 {
 
-  public static void main(String[] args) {
-    //напишите тут ваш код
-  }
+    public static void main(String[] args) {
+        //напишите тут ваш код
+        div(10, 0.0);
+        div(-10, 0.0);
+    }
 
-  public static void div(double a, double b){
-    System.out.println(b/a);
-  }
+    public static void div(double a, double b) {
+        System.out.println(b / a);
+    }
 }

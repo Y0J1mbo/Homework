@@ -3,7 +3,7 @@ package com.homework.for_while_do_while4;
 /**
  * Используя цикл while вывести на экран сто раз цитату (переменная quote):
  * «Я никогда не буду работать за копейки. Амиго»
- *
+ * <p>
  * Каждое значение вывести с новой строки.
  * Требования:
  * •	Программа должна выводить текст на экран.
@@ -13,9 +13,13 @@ package com.homework.for_while_do_while4;
 
 public class Cycle {
 
-  public static void main(String[] args) {
-    String quote = "Я никогда не буду работать за копейки. Амиго";
-    //напишите тут ваш код
-
-  }
+    public static void main(String[] args) {
+        String quote = "Я никогда не буду работать за копейки. Амиго";
+        int i = 0;
+        while (i < 100) {
+            System.out.println(quote);
+            i++;
+        }
+        //напишите тут ваш код
+    }
 }

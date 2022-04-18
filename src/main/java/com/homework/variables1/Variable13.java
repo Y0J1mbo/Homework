@@ -1,14 +1,15 @@
 package com.homework.variables1;
 
 /**
- * Посмотри, что делает программа. Расставь модификатор final общепринятым константам (переменным с неизменными значениями).
+ * Посмотри, что делает программа. Расставь модификатор final общепринятым константам
+ * (переменным с неизменными значениями).
  * Требования:
  * •	Модификатор final должен быть установлен всем константам.
  */
 
 public class Variable13 {
 
-  public static double pi = 3.14;
+  public static final double pi = 3.14;
   public static double radius = 2.5;
   public static double diameter = 5;
 

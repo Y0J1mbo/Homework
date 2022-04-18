@@ -2,7 +2,7 @@ package com.homework.oop7.inheritance;
 
 /**
  * Правильно унаследуй классы:
- *
+ * <p>
  * человека — от существа;
  * Java-девелопера — от человека.
  * Удали дублирующие методы.
@@ -14,45 +14,25 @@ package com.homework.oop7.inheritance;
 
 public class Inheritance2 {
 
-  public class Entity {
-    public void move(){
-      System.out.println("Я передвигаюсь.");
+    public class Entity {
+        public void move() {
+            System.out.println("Я передвигаюсь.");
+        }
+
+        public void eat() {
+            System.out.println("Я ем.");
+        }
     }
 
-    public void eat(){
-      System.out.println("Я ем.");
-    }
-  }
-
-  public class Human {
-    public void move(){
-      System.out.println("Я передвигаюсь.");
+    public class Human extends Entity {
+        public void speak() {
+            System.out.println("Я умею общаться.");
+        }
     }
 
-    public void eat(){
-      System.out.println("Я ем.");
+    public class JavaDeveloper extends Human {
+        public void code() {
+            System.out.println("Я умею общаться на Java.");
+        }
     }
-
-    public void speak(){
-      System.out.println("Я умею общаться.");
-    }
-  }
-
-  public class JavaDeveloper {
-    public void move(){
-      System.out.println("Я передвигаюсь.");
-    }
-
-    public void eat(){
-      System.out.println("Я ем.");
-    }
-
-    public void speak(){
-      System.out.println("Я умею общаться.");
-    }
-
-    public void code(){
-      System.out.println("Я умею общаться на Java.");
-    }
-  }
 }

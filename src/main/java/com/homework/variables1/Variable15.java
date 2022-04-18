@@ -9,6 +9,6 @@ package com.homework.variables1;
  */
 
 public class Variable15 {
-
+byte a; short b; int c; long d; float e; double g; boolean f; char i;
   //напишите тут ваш код
 }

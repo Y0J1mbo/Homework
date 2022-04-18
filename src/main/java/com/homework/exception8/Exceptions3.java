@@ -14,7 +14,8 @@ import java.util.Scanner;
  * •	Программа должна продолжить работу при возникновении NumberFormatException.
  * •	Программа должна выводить сообщение: "Нужно ввести целое число" каждый раз при возникновении NumberFormatException.
  * •	Программа должна продолжить работу при возникновении ArrayIndexOutOfBoundsException.
- * •	Программа должна выводить сообщение: "Студента с таким номером не существует" каждый раз при возникновении ArrayIndexOutOfBoundsException.
+ * •	Программа должна выводить сообщение: "Студента с таким номером не существует" каждый раз при возникновении
+ * ArrayIndexOutOfBoundsException.
  * •	В программе должен быть один блок try и два блока catch.
  */
 
@@ -47,9 +48,14 @@ public class Exceptions3 {
       if (input.toLowerCase().equals(EXIT)) {
         break;
       }
-
       int studentId = Integer.parseInt(input);
+      try{
       System.out.println(ANSWERING + studentsJournal.get(studentId));
-    }
+    } catch (ArrayIndexOutOfBoundsException e) {
+        System.out.println(NOT_EXIST);
+      } catch (NumberFormatException e){
+        System.out.println(INTEGER_REQUIRED);
+      }
   }
+}
 }

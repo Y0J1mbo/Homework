@@ -11,11 +11,7 @@ package com.homework.classes6;
 public class Class {
 
   public static void main(String[] args) {
-    Planet earth = new Planet();
-    Planet.name = "Земля";
-    Planet.age = 4_540_000_000L;
-    Planet.speed = 170_218;
-    Planet.area = 510_072_000;
+    Planet earth = new Planet("Земля", 4_540_000_000L, 170_218, 510_072_000);
     earth.printInformation();
   }
 }

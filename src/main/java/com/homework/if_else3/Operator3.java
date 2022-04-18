@@ -1,5 +1,7 @@
 package com.homework.if_else3;
 
+import java.util.Scanner;
+
 /**
  * Ввести с клавиатуры температуру на улице. Если температура меньше 0, вывести надпись "на улице холодно", иначе - вывести надпись "на улице тепло".
  * Требования:
@@ -12,8 +14,16 @@ package com.homework.if_else3;
 public class Operator3 {
 
   public static void main(String[] args) {
+    Scanner sc = new Scanner(System.in);
+    int t= sc.nextInt();
     String cold = "на улице холодно";
     String warm = "на улице тепло";
+    if(t<=0){
+      System.out.println(cold);
+    }else{
+      System.out.println(warm);
+    }
+
     //напишите тут ваш код
   }
 }

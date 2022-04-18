@@ -20,5 +20,41 @@ public class Method5 {
 
   }
 
+  public static void universalMethod(int a){
+
+  }
+
+  public static void universalMethod(String a){
+
+  }
+
+  public static void universalMethod(double a){
+
+  }
+
+  public static void universalMethod(float a){
+
+  }
+
+  public static void universalMethod(int a, double b){
+
+  }
+
+  public static void universalMethod(double a, int b){
+
+  }
+
+  public static void universalMethod(String a, double b){
+
+  }
+
+  public static void universalMethod(String a, int b){
+
+  }
+
+  public static void universalMethod(String a, String b){
+
+  }
+
   //напишите тут ваш код
 }

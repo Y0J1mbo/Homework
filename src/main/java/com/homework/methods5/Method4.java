@@ -27,6 +27,10 @@ public class Method4 {
 
   public static void reverseArray(int[] array) {
     //напишите тут ваш код
+    for (int i = array.length; i > 0; i--) {
+      System.out.print(array[i-1] + ", ");
+    }
+    System.out.println();
   }
 
   public static void printArray(int[] array) {
