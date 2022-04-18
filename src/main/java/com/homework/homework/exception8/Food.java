@@ -1,4 +1,4 @@
-package com.homework.exception8;
+package com.homework.homework.exception8;
 
 public class Food {
 
@@ -6,9 +6,5 @@ public class Food {
 
   public Food(String name) {
     this.name = name;
-  }
-
-  public String getName() {
-    return name;
   }
 }
