@@ -1,5 +1,7 @@
 package com.homework.variables1;
 
+import java.util.Locale;
+
 /**
  * Метод main выводит на экран четыре строки. Все они - яркий пример злоупотребления заглавными буквами.
  * Внеси изменения в код, чтобы все буквы в этих строках стали строчными.
@@ -18,8 +20,11 @@ public class Variable9 {
 
     //напишите тут ваш код
     System.out.println("RESUME");
-    System.out.println("TITLE: " + title);
-    System.out.println("DEGREE: " + degree);
-    System.out.println("CAREER: " + career);
+    System.out.println("TITLE: " + title.toLowerCase(Locale.ROOT));
+    System.out.println("DEGREE: " + degree.toLowerCase(Locale.ROOT));
+    System.out.println("CAREER: " + career.toLowerCase(Locale.ROOT));
+    System.out.println("CAREER: " + career.toUpperCase());
+
+
   }
 }

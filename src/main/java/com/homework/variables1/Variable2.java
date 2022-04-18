@@ -13,11 +13,11 @@ package com.homework.variables1;
 
 public class Variable2 {
 
-  public static void main(String[] args) {
-    int centimeters = 243;
+    public static void main(String[] args) {
+        int centimeters = 243;
 
-    int meters = 0; //напишите тут ваш код
+        int meters = centimeters / 100; //напишите тут ваш код
 
-    System.out.println(meters);
-  }
+        System.out.println(meters);
+    }
 }

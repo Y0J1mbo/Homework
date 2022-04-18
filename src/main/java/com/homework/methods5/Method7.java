@@ -14,8 +14,11 @@ package com.homework.methods5;
 public class Method7 {
 
   public static void main(String[] args) {
-
+    System.out.println(cube(3));
   }
 
   //напишите тут ваш код
+  public static long cube(long x) {
+    return x*x*x;
+  }
 }

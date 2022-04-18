@@ -1,5 +1,7 @@
 package com.homework.string2;
 
+import java.util.Scanner;
+
 /**
  * Напиши программу, которая считывает с клавиатуры две строки и выдает сообщение о том, одинаковые ли эти строки.
  * Требования:
@@ -10,10 +12,16 @@ package com.homework.string2;
 
 public class StringVariable {
 
-  public static void main(String[] args) {
-    //напишите тут ваш код
-    System.out.println("строки одинаковые");
-    //напишите тут ваш код
-    System.out.println("строки разные");
-  }
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        String one = sc.nextLine();
+        String two = sc.nextLine();
+        //напишите тут ваш код
+        if (one.equals(two)) {
+            System.out.println("строки одинаковые");
+        } else {
+            //напишите тут ваш код
+            System.out.println("строки разные");
+        }
+    }
 }

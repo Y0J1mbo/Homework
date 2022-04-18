@@ -16,9 +16,9 @@ public class Variable21 {
 
   public static void main(String[] args) {
     // измените этот код
-    //    int number = 1
-    //    System.out.println(number)
-    //    String string = "Amigo;
-    //    System.out.println(string);
+        int number = 1;
+        System.out.println(number);
+        String string = "Amigo";
+        System.out.println(string);
   }
 }

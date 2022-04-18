@@ -1,5 +1,7 @@
 package com.homework.methods5;
 
+import java.util.Objects;
+
 /**
  * Перед тобой метод signIn(), который приветствует пользователей сайта. Сейчас он приветствует всех пользователей, а должен только зарегистрированных.
  * Имена всех незарегистрированных пользователей — "user".
@@ -20,6 +22,9 @@ public class Method6 {
 
   public static void signIn(String username){
     //напишите тут ваш код
+    if (Objects.equals(username, "user")) {
+      return;
+    }
     System.out.println("Добро пожаловать " + username);
     System.out.println("Очень скучали по Вам, " + username);
   }
