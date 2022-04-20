@@ -1,4 +1,5 @@
 package com.homework.oop7.inheritance.repka_difficult;
+
 import java.util.List;
 
 public class RepkaStory {

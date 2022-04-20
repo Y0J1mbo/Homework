@@ -20,7 +20,7 @@ import java.util.ArrayList;
  */
 
 public class Solution3 {
-  public static ArrayList<Astronaut> astronauts = new ArrayList<>();
+  public static ArrayList<com.homework.oop7.poliformism.cosmic.Astronaut> astronauts = new ArrayList<>();
 
   public static void main(String[] args) {
     createCrew();

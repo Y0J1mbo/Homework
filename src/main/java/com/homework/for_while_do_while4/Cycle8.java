@@ -1,15 +1,17 @@
 package com.homework.for_while_do_while4;
 
+import java.util.Scanner;
+
 /**
  * В этой задаче нужно:
- *
+ * <p>
  * Ввести с клавиатуры строку и число number, которое больше 0 и меньше 5.
  * Вывести на экран строку number раз с помощью цикла do-while. Каждое значение нужно вывести с новой строки.
  * Если число number меньше/равно 0 или больше/равно 5, то введенную строку нужно вывести на экран один раз.
  * Пример ввода:
  * абв
  * 2
- *
+ * <p>
  * Пример вывода:
  * абв
  * абв
@@ -23,8 +25,14 @@ package com.homework.for_while_do_while4;
 
 public class Cycle8 {
 
-  public static void main(String[] args) {
-    //напишите тут ваш код
-
-  }
+    public static void main(String[] args) {
+        //напишите тут ваш код
+        Scanner sc = new Scanner(System.in);
+        String str = sc.nextLine();
+        int num = sc.nextInt();
+        do {
+            System.out.println(str);
+            num--;
+        } while (num > 0 && num < 4);
+    }
 }

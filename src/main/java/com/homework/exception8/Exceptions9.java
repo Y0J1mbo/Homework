@@ -16,7 +16,7 @@ public class Exceptions9 {
   public static final String FAILED_TO_READ = "Не удалось прочесть файл.";
   public static final String FAILED_TO_WRITE = "Не удалось записать в файл.";
 
-  public static FileManager fileManager = new FileManager();
+  public static com.homework.exception8.FileManager fileManager = new FileManager();
 
   public static void main(String[] args) {
     fileManager.copyFile("book.txt", "book_final_copy.txt");

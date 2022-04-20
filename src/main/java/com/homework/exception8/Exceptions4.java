@@ -18,7 +18,6 @@ public class Exceptions4 {
         int d = 18;
         int c = a + d;
         String b = " is better than ";
-//
         System.out.println(a + b + c);
     }
 

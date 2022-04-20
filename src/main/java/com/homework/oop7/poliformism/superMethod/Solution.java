@@ -25,9 +25,9 @@ package com.homework.oop7.poliformism.superMethod;
 
 public class Solution {
   public static void main(String[] args) {
-    Cat cat = new Cat();
+    com.homework.oop7.poliformism.superMethod.Cat cat = new Cat();
     cat.printInfo();
-    Dog dog = new Dog();
+    com.homework.oop7.poliformism.superMethod.Dog dog = new Dog();
     dog.printInfo();
   }
 }

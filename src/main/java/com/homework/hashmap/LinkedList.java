@@ -1,7 +1,5 @@
 package com.homework.hashmap;
 
-import com.homework.hashmap.StringsLinkedList;
-
 /**
  * Пришло время познакомиться с двусвязным списком. Решая эту задачу ты поймешь,
  * как работает двусвязный список и сможешь добавлять в него элементы.
