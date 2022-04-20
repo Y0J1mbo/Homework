@@ -6,7 +6,7 @@ public class Lion {
         try {
             System.out.println();
             System.out.println("ищет еду");
-            System.out.println("нашел " + food.name);
+            System.out.println("нашел " + food.getName());
             System.out.println("все съел");
         } catch (NullPointerException e) {
             System.out.println("ничего не нашел");

@@ -2,7 +2,7 @@ package com.homework.hashmap10;
 
 import java.util.Arrays;
 import java.util.HashSet;
-
+import java.util.Iterator;
 /**
  * В классе Set3 есть метод print(HashSet<String>), который должен выводить в консоли все элементы множества, используя iterator().
  * Метод main не участвует в проверке.
@@ -14,6 +14,11 @@ public class Set3 {
 
   public static void print(HashSet<String> words) {
     //напишите тут ваш код
+    Iterator<String> iterator = words.iterator();
+    while (iterator.hasNext()) {
+      String word = iterator.next();
+      System.out.println(word);
+    }
   }
 
   public static void main(String[] args) {

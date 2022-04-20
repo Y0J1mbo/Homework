@@ -21,7 +21,7 @@ import java.util.ArrayList;
  */
 
 public class Solution2 {
-  public static ArrayList<Astronaut> astronauts = new ArrayList<>();
+  public static ArrayList<com.homework.oop7.poliformism.cosmic.Astronaut> astronauts = new ArrayList<>();
 
   public static void main(String[] args) {
     createCrew();
@@ -31,6 +31,7 @@ public class Solution2 {
 
   public static void runWorkingProcess() {
     //напишите тут ваш код
+    pilot(new Human());
   }
 
   public static void pilot(Human human){

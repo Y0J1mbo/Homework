@@ -29,6 +29,6 @@ public class Solution {
     plot.add(new Person("Дедка", "Дедку"));
     plot.add(new Person("Бабка", "Бабку"));
     plot.add(new Person("Внучка", "Внучку"));
-    RepkaStory.tell(plot);
+//    RepkaStory.tell(plot);
   }
 }

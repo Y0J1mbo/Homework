@@ -1,6 +1,5 @@
 package com.homework.stream11;
 
-import java.nio.file.Path;
 import java.util.Scanner;
 
 /**

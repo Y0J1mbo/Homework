@@ -15,8 +15,8 @@ import java.util.ArrayList;
 public class List2 {
 
   public static void main(String[] args) {
-    ArrayList<Student> students = new ArrayList<>();
-    students.add(new Student("Акакий"));
+    ArrayList<com.homework.arraylist9.Student> students = new ArrayList<>();
+    students.add(new com.homework.arraylist9.Student("Акакий"));
     students.add(new Student("Любослав"));
 
     printStudentNames(students);

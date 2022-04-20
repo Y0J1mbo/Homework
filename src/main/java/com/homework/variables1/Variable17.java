@@ -1,7 +1,5 @@
 package com.homework.variables1;
 
-import java.util.Scanner;
-
 /**
  * В методе main вызови метод div() 2 раза. Первый раз — с такими аргументами, чтобы вывод в консоли был "Infinity", а второй — "-Infinity".
  * Код метода div() изменять нельзя.
